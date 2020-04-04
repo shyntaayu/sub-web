@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+*{
+   box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1F4F9;
+ }
+h2,h3{
+    color: #157610;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+ nav a:hover {
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #201E16;
+    border-bottom: 2px #D84844 solid;
+ }
+ nav a:active {
+   font-weight: bold;
+   padding-bottom: 20px;
+   color: #201E16;
+   border-bottom: 2px #D84844 solid;
+ }
+ .profile header {
+    text-align: center;
+ }
+
+ .blue{
+    background-color: #4634ED;
+ }
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #061708;
+    text-align: center;
+    font-weight: bold;
+ }
+ .featured-image {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    /* max-height: 300px;
+    object-fit: cover;
+    object-position: center; */
+ }
+ .profile img {
+    width: 200px;
+ }
+ .sub {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    /* border-radius: 5px; */
+    padding: 0px;
+    margin-top: 20px;
+ }
+ .sub h4{
+    text-transform: uppercase;
+    color: #B6AAB7;
+ }
+ .card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 15px;
+   padding: 20px;
+   margin-top: 20px;
+}
+ .jumbotron {
+    font-size: 20px;
+    padding: 40px;
+    background-color: #F1F4F9;
+    text-align: left;
+    color: #201E16;
+ }
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+ nav {
+    background-color: #ffffff;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    border-radius: 15px;
+    margin: 0 20px;
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #B6AAB7;
+ }
+ main {
+    padding: 20px;
+    overflow: auto;
+ }
+ #content {
+   float: left;
+   width: 75%;
+}
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+header {
+   display: inline;
+}
+
+.clear {
+   clear: left;
+}
